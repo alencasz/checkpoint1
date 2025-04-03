@@ -35,10 +35,10 @@ Depois de iniciar a aplicação acesse:
 **POST** `/pacientes`
 ```json
 {
-  "nome": "João Silva",
+  "nome": "Lucas de Alencar",
   "endereco": "Rua A, 123",
   "bairro": "Centro",
-  "email": "joao@email.com",
+  "email": "lucas@email.com",
   "telefoneCompleto": "(11) 98765-4321"
 }
 ```
@@ -47,10 +47,10 @@ Depois de iniciar a aplicação acesse:
 **PUT** `/pacientes/{id}`
 ```json
 {
-  "nome": "João Silva Atualizado",
+  "nome": "Lucas de Alencar atualizado",
   "endereco": "Rua B, 456",
   "bairro": "Jardins",
-  "email": "joao.novo@email.com",
+  "email": "lucas.novo@email.com",
   "telefoneCompleto": "(11) 99999-9999"
 }
 ```
